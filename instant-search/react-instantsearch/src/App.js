@@ -21,11 +21,11 @@ import Slider from 'rc-slider';
 
 const App = props =>
   <InstantSearch
-    apiKey="6be0576ff61c053d5f9a3225e2a90f76"
-    appId="latency"
+    apiKey="dd90c55ff29390096dbb1aec5fdf3947"
+    appId="6QDN2X6657"
     className="container-fluid"
     createURL={props.createURL}
-    indexName="instant_search"
+    indexName="elkop_demo"
     onSearchStateChange={props.onSearchStateChange}
     searchParameters={{ hitsPerPage: 10 }}
     searchState={props.searchState}
